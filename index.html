@@ -8,7 +8,28 @@
     <script defer src="./script/script.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Broken Hearts Cosmetics</h1>
+    </header>
+    <main>
+        <div id="product-info">
+            <h2>Select a Product</h2>
+            <form id="product-form">
+                <select id="product-select" required>
+                    <option value="">--Choose a Product--</option>
+                    <option value="lipstick">Lipstick</option>
+                    <option value="eyeshadow">Eyeshadow</option>
+                    <option value="foundation">Foundation</option>
+                </select>
+                <button type="submit">Show Info</button>
+            </form>
+            <div id="info-display">
+                <img id="product-image" src="" alt="" />
+                <p id="product-description"></p>
+            </div>
+            <button id="add-product">Add Custom Product</button>
+        </div>
+    </main>
 
     <script src="./script/script.js"></script>
 </body>
