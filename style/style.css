@@ -1,12 +1,12 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: black; /* Background color set to black */
-    color: white; /* Default text color set to white for contrast */
+    color: white; /* Default text color set to white */
 }
 
 header {
@@ -33,6 +33,20 @@ img {
     height: auto;
     border: 2px solid red; /* Border color set to red */
     border-radius: 5px;
+}
+
+button {
+    background-color: red; /* Button background color set to red */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred; /* Darker red on hover */
 }
 
 button {
