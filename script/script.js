@@ -9,15 +9,15 @@ const addProductButton = document.getElementById('add-product');
 // Product data
 const productData = {
     lipstick: {
-        image: 'https://images.pexels.com/photos/12334955/pexels-photo-12334955.jpeg',
+        image: 'imageone.jpg',
         description: 'Our Broken Hearts Lipstick provides vibrant color with a smooth finish, perfect for any occasion.'
     },
     eyeshadow: {
-        image: 'https://images.pexels.com/photos/4167396/pexels-photo-4167396.jpeg',
+        image: 'imagefive.jpg',
         description: 'Create stunning eye looks with our rich and pigmented eyeshadow palettes that blend seamlessly.'
     },
     foundation: {
-        image: 'https://images.pexels.com/photos/5689530/pexels-photo-5689530.jpeg',
+        image: 'imagetwo.jpg',
         description: 'Achieve flawless skin with our lightweight foundation that offers buildable coverage for a natural look.'
     }
 };
